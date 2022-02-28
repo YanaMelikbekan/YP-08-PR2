@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
 </head>
+
 <body>
     <div class="header">
         <div class="container">
@@ -34,8 +38,40 @@
                         </a>
                     </ul>
                     <div class="search">
-                        <a href="#"><img class="search-img" src="./img/search (1).png" alt="search"></a>
+                        <button class="search__btn"><img class="search-img" src="./img/search (1).png"
+                                alt="search"></button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <div class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/low-angle-photo-of-balconies-2462015 1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/low-angle-photo-of-balconies-2462015 1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="./img/low-angle-photo-of-balconies-2462015 1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__text">
+                    <div class="slider-text">
+                        <div class="slider-title">Проектные решения любой сложности</div>
+                        <div class="slider-subtitle">Есть над чем задуматься: базовые сценарии поведения пользователей и
+                            по сей день остаются уделом проектантов</div>
+                    </div>
+                    <div class="slider-button">
+                        <input class='btn' type="button" value="Заказать расчет">
+                    </div>
+                </div>
+                <div class="point">
+                    <div class="circle-one"></div>
+                    <div class="circle-two"></div>
+                    <div class="circle-three"></div>
                 </div>
             </div>
         </div>
