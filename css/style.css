@@ -54,6 +54,14 @@ a{
     margin-right: 85px;
     color: black;
 }
+.nav__text:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #FF9900;
+}
+.nav__text:focus{
+    border: 2px solid #FF9900;
+    padding: 5px;
+}
 .nav__text:active{
     color:#E1670E;
     text-decoration-line: underline;
@@ -65,8 +73,10 @@ a{
 .search__btn{
     background-color: #fff;
     padding: 3px;
+    border: none;
+    cursor: pointer;
 }
-.search__btn:hover{
+.search__btn:focus{
     border: 1px solid #E1670E;
 }
 .slider{
@@ -96,9 +106,16 @@ a{
     background-color: #FF9900;
     color: white;
     font-size: 24px;
+    cursor: pointer;
 }
 .btn:hover{
-    background-color: #E1670E;
+    background: rgba(255, 153, 0, 0.7);
+}   
+.btn:focus{
+    background: rgba(255, 153, 0, 0.7);
+} 
+.btn:active{
+    background: #E1670E;
 }   
 .circle-one{
     width: 15px; 
@@ -159,4 +176,95 @@ a{
     top: 10px;
     z-index: 2;
     padding-top: 100px;
+}
+
+.about{
+    margin-top: 114px;
+}
+.container-text{
+    width: 1235px;
+}
+.about-title{
+    font-family: 'Montserrat-Regular';
+    font-size: 48px;
+}
+.about-text{
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card-img{
+    width: 868px;
+    height: 622px;
+    background: url('../img/Rectangle\ 2\ \(1\).jpg');
+    background-repeat: no-repeat;
+}
+.card-info{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 445px;
+}
+.card-block{
+    width: 768px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.info-card-text{
+    width: 454px;
+    margin-right: 139px;
+    font-family:'Montserrat-Bold';
+    font-size: 16px;
+    color: white;
+}
+.btn-card{
+    padding: 20px 38px ;
+    border: 3px solid #FF9900;
+    color: white;
+    font-size: 16px;
+    width: 175px;
+    background: none;
+}
+.btn-card:hover{
+    background-color: #FF9900;
+}
+.btn-card:focus{
+    background-color: #FF9900;
+}
+.btn-card:active{
+    background-color: #E1670E;
+}
+.card-text{
+    width: 870px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CACACA;
+    margin-bottom: 32px;
+    padding: 65px 0px 59px 60px;
+}
+.card-text:last-child{
+    margin-bottom: 0px;
+}
+.text-info{
+    width: 452px;
+    margin-left:50px ;
+}
+.img{
+    width: 190px;
+}
+.container-card{
+    display: flex;
+}
+.card-information{
+    margin-left: 32px;
+}
+.info-title{
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+}
+.info-text{
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    margin-top: 8px;
 }
