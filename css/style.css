@@ -222,6 +222,7 @@ a{
     padding: 20px 38px ;
     border: 3px solid #FF9900;
     color: white;
+    font-family:'Montserrat-Bold';
     font-size: 16px;
     width: 175px;
     background: none;
@@ -267,4 +268,98 @@ a{
     font-family: 'Montserrat-Regular';
     font-size: 16px;
     margin-top: 8px;
+}
+
+.how{
+    margin-top: 100px;
+}
+.block-title{
+    font-family: 'Montserrat-Regular';
+    font-size: 48px;
+}
+.step{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.step-nav{
+    color: black;
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    margin-right: 85px;
+}
+.step-nav:last-child{
+    margin-right: 0px
+}
+.step-nav:hover{
+    color:#FF9900 ;
+}
+.step-nav:focus{
+    border: 2px solid #FF9900;
+    padding: 3px;
+}
+.step-nav:active{
+    color:#E1670E ;
+}
+.block-text{
+    width: 758px;
+}
+.title-text{
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.block-text-info{
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.btn-more-detailed{
+    padding: 19px 38px ;
+    border: 3px solid #FF9900;
+    color: white;
+    font-family:'Montserrat-Bold';
+    font-size: 16px;
+    width: 175px;
+    background: #FF9900;
+    cursor: pointer;
+}
+.btn-more-detailed:hover{
+    background: #F7B045;
+}
+.btn-more-detailed:focus{
+    background: #F7B045;
+}
+.btn-more-detailed:active{
+    background: #E1670E;
+}
+.btn-contract{
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    width: 147px;
+    background: none;
+    border: 1px solid black;
+    padding: 20px 38px ;
+    cursor: pointer;
+    margin-left: 32px;
+    color: #333333;
+}
+.btn-contract:hover{
+    background: #666666;
+    color: white;
+}
+.btn-contract:focus{
+    background: #666666;
+    color: white;
+}
+.btn-contract:active{
+    background: #000000;
+    color: white;
+}
+.img-consultation{
+    width: 870px;
+}
+.block-how{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
