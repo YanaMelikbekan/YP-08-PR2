@@ -416,4 +416,102 @@ a{
 .plus:focus path{
     fill: white;
 }
-
+.footer{
+    margin-top: 100px;
+    background-color: #222222;
+}
+.menu-text{
+    color:#CACACA;
+    font-size: 18px;
+    font-family:'Montserrat-SemiBold';
+    padding-bottom: 15px;
+}
+.menu-text:last-child{
+    padding-bottom: 0;
+}
+.menu-list{
+    display: flex;
+    flex-direction: column;
+}
+.block-footer{
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-menu{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.block-footer-text{
+    width: 363px;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    color: #CACACA;
+}
+.block-form{
+    width: 570px;
+}
+.block-form form{
+    display: flex;
+    flex-direction: column; 
+}
+.title-form{
+    font-family: 'Montserrat-Regular';
+    font-size: 48px;
+    color: #CACACA;
+    margin-bottom: 25px;
+}
+.fullname,.email,.text-form{
+    background-color:#414141;
+    border: none;
+    width: 570px;
+    margin-bottom: 25px;
+}
+.text-form{
+    padding-top: 14px;
+    padding-left: 24px;
+    padding-bottom: 104px;
+    margin-bottom: 0;
+}
+.fullname,.email{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+}
+.fullname::placeholder,.email::placeholder,.text-form::placeholder{
+    color: #CACACA;
+}
+.fullname:hover{
+    background-color: #666666;
+}
+.fullname:focus{
+    background-color: #666666;
+}
+.fullname:focus{
+    background-color: #666666;
+    color: white;
+}
+.btn-form{
+    font-family:'Montserrat-Bold';
+    font-size: 16px;
+    padding: 19px 52px ;
+    background-color: #FF9900;
+    color: white;
+    cursor: pointer;
+}
+.button-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.box p{
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    color: #CACACA;
+    margin-left: 10px;
+}
