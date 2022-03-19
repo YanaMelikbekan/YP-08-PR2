@@ -363,3 +363,57 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 }
+.faq{
+    margin-top: 100px;
+}
+.title-faq{
+    font-family: 'Montserrat-Regular';
+    font-size: 46px;
+}
+.text-question{
+    font-family:'Montserrat-Bold';
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+    align-items: center;
+}
+.questions{
+    margin-top: 32px;
+}
+.question:hover{
+    cursor: pointer;
+    color:#FF9900;
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+}
+.question:focus{
+    cursor: pointer;
+    color:#FF9900;
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+}
+.plus ellipse{
+    fill: #ECECEC;
+}
+.plus path{
+    fill: #666666;
+}
+.plus:hover ellipse{
+    fill: #FF9900;
+}
+.plus:hover path{
+    fill: white;
+}
+.plus:focus ellipse{
+    fill: #FF9900;
+}
+.plus:focus path{
+    fill: white;
+}
+
